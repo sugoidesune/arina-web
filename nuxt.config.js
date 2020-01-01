@@ -97,7 +97,7 @@ styleResources: {
     }
   },
   router :{
-    base: process.env.NODE_ENV === "development" ? '/' : '/readium/'
+    base: process.env.NODE_ENV === "development" ? '/' : '/arina-web/'
   },
   generate: {
     dir: process.env.generateFolder || 'dist'
