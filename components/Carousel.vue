@@ -23,7 +23,7 @@ export default {
 }},
     computed:{
         slideImages() {
-        return [ 'img/carousel/header3.jpg', 'img/carousel/header1.jpg', + 'img/carousel/header2.jpg']
+        return [ 'img/carousel/header3.jpg', 'img/carousel/header1.jpg', 'img/carousel/header2.jpg']
         .map(img=>this.$router.options.base+img)
         },
         test(){
