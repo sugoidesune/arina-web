@@ -19,9 +19,10 @@
 export default {
 
     data(){return {
-            slideImages: ['/img/carousel/header3.jpg', '/img/carousel/header1.jpg', '/img/carousel/header2.jpg']
+            slideImages: [__dirname +'img/carousel/header3.jpg', __dirname + 'img/carousel/header1.jpg', __dirname + 'img/carousel/header2.jpg']
     }},
 }
+console.log(__dirname)
 </script>
 
 <style>
