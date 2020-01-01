@@ -19,10 +19,19 @@
 export default {
 
     data(){return {
-            slideImages: [__dirname +'img/carousel/header3.jpg', __dirname + 'img/carousel/header1.jpg', __dirname + 'img/carousel/header2.jpg']
-    }},
+            
+}},
+    computed:{
+        slideImages() {
+        return [ 'img/carousel/header3.jpg', 'img/carousel/header1.jpg', + 'img/carousel/header2.jpg']
+        .map(img=>this.$router.options.base+img)
+        },
+        test(){
+            console.log(this)
+            return null
+        }
+    }
 }
-console.log(__dirname)
 </script>
 
 <style>
