@@ -14,9 +14,9 @@
 
 
 
-<div id="news">
-  <h1>NEWS</h1>
-  <h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1><h1>NEWS</h1>
+<div id="news" class="text-center">
+  <h1 class="my-5">NEWS</h1>
+  <p>Lovely Text</p>
 </div>
 
   <section id="gallery" class="text-center">
@@ -43,7 +43,7 @@ export default {
     return{}
   },
   async asyncData({ $axios }) {
-      const posts = await $axios.$get('https://api.instagram.com/v1/users/self/media/recent/?access_token=5442213803.1677ed0.37e6698523144c36ab57c135438f2e9d&count=9')
+      const posts = await $axios.$get('https://api.instagram.com/v1/users/self/media/recent/?access_token=198776560.1677ed0.a4cdeee2406f4e19a517666d42390806&count=9')
       return { posts }
   },
 }
