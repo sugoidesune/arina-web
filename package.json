@@ -18,11 +18,16 @@
     "bootstrap-vue": "^2.0.0",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
-    "nuxt": "^2.10.2"
+    "nuxt": "^2.11.0",
+    "nuxt-i18n": "^6.4.1",
+    "vue-instagram": "^3.0.0"
   },
   "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
     "node-sass": "^4.13.0",
     "nodemon": "^1.18.9",
-    "sass-loader": "^8.0.0"
+    "sass-loader": "^8.0.0",
+    "vue-i18n-loader": "^1.0.0",
+    "yaml-loader": "^0.5.0"
   }
 }

@@ -1,0 +1,15 @@
+$base: black;
+$comp: white;
+$high: #c80963;
+
+%text-hover:hover {
+    color: lighten( $high, 40% );
+    text-shadow:
+      -10px 0px 15px $high,
+      0px 0px 10px $high,
+      0px 0px 5px $high,
+      0px 0px 0px $high,
+      0px 0px 1px $high,
+      0px 0px 2px $high,
+      0px 0px 3px $high,
+   }
